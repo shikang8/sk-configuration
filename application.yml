@@ -1,14 +1,14 @@
-spring
+spring:
     profiles:
         active:
          - dev
 ---
-spring
+spring:
     profiles: dev
     application:
         name: cloud-config-sk-dev
 ---
-spring
+spring:
     profiles: test
     application:
         name: cloud-config-sk-test
